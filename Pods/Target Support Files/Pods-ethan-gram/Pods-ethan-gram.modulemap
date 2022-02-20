@@ -1,0 +1,6 @@
+framework module Pods_ethan_gram {
+  umbrella header "Pods-ethan-gram-umbrella.h"
+
+  export *
+  module * { export * }
+}

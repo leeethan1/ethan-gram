@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38CBC5633096F2FBD1F7FAAA /* Pods_ethan_gram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D644D75E0628D4C3E27F7 /* Pods_ethan_gram.framework */; };
 		9D137B3B27BDA57200052F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D137B3A27BDA57200052F82 /* AppDelegate.swift */; };
 		9D137B3D27BDA57200052F82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D137B3C27BDA57200052F82 /* SceneDelegate.swift */; };
-		9D137B3F27BDA57200052F82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D137B3E27BDA57200052F82 /* ViewController.swift */; };
 		9D137B4227BDA57200052F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D137B4027BDA57200052F82 /* Main.storyboard */; };
 		9D137B4427BDA57700052F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D137B4327BDA57700052F82 /* Assets.xcassets */; };
 		9D137B4727BDA57700052F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D137B4527BDA57700052F82 /* LaunchScreen.storyboard */; };
+		9DACD72527C19884002BCC3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACD72427C19884002BCC3B /* LoginViewController.swift */; };
+		9DACD72727C1989E002BCC3B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACD72627C1989E002BCC3B /* FeedViewController.swift */; };
+		9DACD72927C19F41002BCC3B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACD72827C19F41002BCC3B /* CameraViewController.swift */; };
+		9DACD72B27C2262A002BCC3B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACD72A27C2262A002BCC3B /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		611D644D75E0628D4C3E27F7 /* Pods_ethan_gram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ethan_gram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F609F56282300C6D9FCCA3 /* Pods-ethan-gram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ethan-gram.release.xcconfig"; path = "Target Support Files/Pods-ethan-gram/Pods-ethan-gram.release.xcconfig"; sourceTree = "<group>"; };
+		994BE3A798E2AE6FED28302C /* Pods-ethan-gram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ethan-gram.debug.xcconfig"; path = "Target Support Files/Pods-ethan-gram/Pods-ethan-gram.debug.xcconfig"; sourceTree = "<group>"; };
 		9D137B3727BDA57200052F82 /* ethan-gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ethan-gram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D137B3A27BDA57200052F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D137B3C27BDA57200052F82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9D137B3E27BDA57200052F82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D137B4127BDA57200052F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D137B4327BDA57700052F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D137B4627BDA57700052F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D137B4827BDA57700052F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DACD72427C19884002BCC3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9DACD72627C1989E002BCC3B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		9DACD72827C19F41002BCC3B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		9DACD72A27C2262A002BCC3B /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CBC5633096F2FBD1F7FAAA /* Pods_ethan_gram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B572CABCAADF1D5DF32D6C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				611D644D75E0628D4C3E27F7 /* Pods_ethan_gram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96CB3A132C9F863E4512F3A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				994BE3A798E2AE6FED28302C /* Pods-ethan-gram.debug.xcconfig */,
+				66F609F56282300C6D9FCCA3 /* Pods-ethan-gram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9D137B2E27BDA57200052F82 = {
 			isa = PBXGroup;
 			children = (
 				9D137B3927BDA57200052F82 /* ethan-gram */,
 				9D137B3827BDA57200052F82 /* Products */,
+				96CB3A132C9F863E4512F3A5 /* Pods */,
+				0B572CABCAADF1D5DF32D6C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +88,14 @@
 			children = (
 				9D137B3A27BDA57200052F82 /* AppDelegate.swift */,
 				9D137B3C27BDA57200052F82 /* SceneDelegate.swift */,
-				9D137B3E27BDA57200052F82 /* ViewController.swift */,
+				9DACD72427C19884002BCC3B /* LoginViewController.swift */,
 				9D137B4027BDA57200052F82 /* Main.storyboard */,
+				9DACD72A27C2262A002BCC3B /* PostCell.swift */,
+				9DACD72827C19F41002BCC3B /* CameraViewController.swift */,
 				9D137B4327BDA57700052F82 /* Assets.xcassets */,
 				9D137B4527BDA57700052F82 /* LaunchScreen.storyboard */,
 				9D137B4827BDA57700052F82 /* Info.plist */,
+				9DACD72627C1989E002BCC3B /* FeedViewController.swift */,
 			);
 			path = "ethan-gram";
 			sourceTree = "<group>";
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D137B4B27BDA57700052F82 /* Build configuration list for PBXNativeTarget "ethan-gram" */;
 			buildPhases = (
+				5A2710B532194806C8FDE53A /* [CP] Check Pods Manifest.lock */,
 				9D137B3327BDA57200052F82 /* Sources */,
 				9D137B3427BDA57200052F82 /* Frameworks */,
 				9D137B3527BDA57200052F82 /* Resources */,
+				3EEADCF86C00072DDEC1BBA9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +168,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EEADCF86C00072DDEC1BBA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ethan-gram/Pods-ethan-gram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ethan-gram/Pods-ethan-gram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ethan-gram/Pods-ethan-gram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A2710B532194806C8FDE53A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ethan-gram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D137B3327BDA57200052F82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D137B3F27BDA57200052F82 /* ViewController.swift in Sources */,
+				9DACD72527C19884002BCC3B /* LoginViewController.swift in Sources */,
+				9DACD72927C19F41002BCC3B /* CameraViewController.swift in Sources */,
 				9D137B3B27BDA57200052F82 /* AppDelegate.swift in Sources */,
+				9DACD72727C1989E002BCC3B /* FeedViewController.swift in Sources */,
 				9D137B3D27BDA57200052F82 /* SceneDelegate.swift in Sources */,
+				9DACD72B27C2262A002BCC3B /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +364,7 @@
 		};
 		9D137B4C27BDA57700052F82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994BE3A798E2AE6FED28302C /* Pods-ethan-gram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +392,7 @@
 		};
 		9D137B4D27BDA57700052F82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F609F56282300C6D9FCCA3 /* Pods-ethan-gram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
