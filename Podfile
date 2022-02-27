@@ -8,4 +8,5 @@ target 'ethan-gram' do
   # Pods for ethan-gram
   pod 'Parse'
   pod 'AlamofireImage'
+  pod 'MessageInputBar'
 end

@@ -17,6 +17,7 @@
 		9DACD72727C1989E002BCC3B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACD72627C1989E002BCC3B /* FeedViewController.swift */; };
 		9DACD72927C19F41002BCC3B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACD72827C19F41002BCC3B /* CameraViewController.swift */; };
 		9DACD72B27C2262A002BCC3B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DACD72A27C2262A002BCC3B /* PostCell.swift */; };
+		9DDE561327CADAE0003B925E /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDE561227CADAE0003B925E /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9DACD72627C1989E002BCC3B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		9DACD72827C19F41002BCC3B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		9DACD72A27C2262A002BCC3B /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		9DDE561227CADAE0003B925E /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		9D137B2E27BDA57200052F82 = {
 			isa = PBXGroup;
 			children = (
+				9DDE561227CADAE0003B925E /* CommentCell.swift */,
 				9D137B3927BDA57200052F82 /* ethan-gram */,
 				9D137B3827BDA57200052F82 /* Products */,
 				96CB3A132C9F863E4512F3A5 /* Pods */,
@@ -221,6 +224,7 @@
 				9DACD72727C1989E002BCC3B /* FeedViewController.swift in Sources */,
 				9D137B3D27BDA57200052F82 /* SceneDelegate.swift in Sources */,
 				9DACD72B27C2262A002BCC3B /* PostCell.swift in Sources */,
+				9DDE561327CADAE0003B925E /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
